@@ -1,0 +1,129 @@
+body { margin:0;
+       padding:0;
+     }
+
+#map { position: absolute;
+       top:0;
+       bottom:0;
+       right:0;
+       left:0;
+      }
+
+.leaflet-container {
+      margin-top: 4.2em;
+
+      }
+.leaflet-marker-icon,.leaflet-marker-shadow {
+    opacity: 0;
+     }
+#mapid {
+      height: 75vh;
+       }
+
+#geoloc {
+     padding-left: 30px;
+       }
+/* Change cursor when mousing over clickable layer */
+.leaflet-clickable {
+    cursor: crosshair !important;
+      }
+/* Change cursor when over entire map */
+.leaflet-container {
+    cursor: crosshair !important;
+      }
+#basemaps-wrapper {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 400;
+    background: white;
+    padding: 10px;
+    margin-top: 4.2em;
+  }
+  #basemaps {
+    margin-bottom: 5px;
+  }
+
+  .btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    margin-left: 800px;
+    margin-top: 10px;
+}
+.search-form .form-group {
+  float: right !important;
+  transition: all 0.35s, border-radius 0s;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+}
+.search-form .form-group input.form-control {
+  padding-right: 20px;
+  border: 0 none;
+  background: transparent;
+  box-shadow: none;
+  display:block;
+}
+.search-form .form-group input.form-control::-webkit-input-placeholder {
+  display: none;
+}
+.search-form .form-group input.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  display: none;
+}
+.search-form .form-group input.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  display: none;
+}
+.search-form .form-group input.form-control:-ms-input-placeholder {
+  display: none;
+}
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+  width: 100%;
+  border-radius: 4px 25px 25px 4px;
+}
+.search-form .form-group span.form-control-feedback {
+  position: absolute;
+  top: -1px;
+  right: -2px;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  color: #3596e0;
+  left: initial;
+  font-size: 14px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #222;
+}
+
+.management {
+ margin-left: 21em;
+ margin-top: 9em;
+ width: 22em;
+ height: 5em;
+ font-size: 18px;
+ }
+
+.dashboard {
+margin-left: 21em;
+height: 5em;
+width: 22em;
+font-size: 18px;
+
+  }
+  
+.jobs {
+  margin-left: 1057px;
+  margin-top: -40px;
+}
